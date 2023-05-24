@@ -14,10 +14,12 @@ public class Divisors implements Result {
         this.n = n;
     }
 
+    //Initialize a Divisors object
     public Divisors() {
 
     }
 
+    //Override the method from the Result interface.
     @Override
     public String getResult() {
         StringBuilder result = new StringBuilder();
@@ -109,3 +111,6 @@ public class Divisors implements Result {
         divisors.getResult();
     }
 }
+
+//Для каждого натурального числа в промежутке от m до n вывести все делители.
+// Числа следует вводить следующим образом: строка с некоторым разделителем; массив; список чисел (реализовать все три способа ввода).
